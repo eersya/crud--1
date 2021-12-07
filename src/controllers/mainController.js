@@ -13,7 +13,7 @@ const controller = {
 	  search: (req, res) => {
         const keywords = req.body.keywords;
         res.render('index', {
-            products: products.filter(function(p) {
+            products: products.filter( function(p) {
                 p.name == keywords;
             })
         });
