@@ -36,7 +36,7 @@ const controller = {
 
 	// Delete - Delete one product from DB
 	destroy : (req, res) => {
-=======
+
       res.render('detail', { product: product });
 	},
 
